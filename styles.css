@@ -5,11 +5,24 @@ html, body {
   background: -webkit-linear-gradient(top, #C9C1BE, #FFFFFF);
   background: -moz-linear-gradient(top, #C9C1BE, #FFFFFF);
   background: linear-gradient(to bottom, #C9C1BE, #FFFFFF);
+}
 
+hr{
+  width: 70%;
+  border-width: 2px;
+  float: left;
+  margin: 0;
+  border-color: black;
+  border-radius: ; 
 }
 
 header {
   height: 14%;
+}
+
+footer{
+  height: 15%;
+
 }
 
 .navbar {
@@ -18,35 +31,40 @@ header {
 }
 
 .photoAbout {
-  padding: 5% 0 0 10%;
-    /* background: #C9C1BE; */
+  padding-left:10%;
 }
 
 .myPhoto {
-  float: left;
+  /* float: bottom; */
   max-width: 100%;
   min-width: 440px;
 }
 
 .about {
-  /* text-align: left; */
-  display: inline-block;
-  width: 60%;
-  padding: 5% 0 5% 10%;
+  font-family: 'Arsenal', sans-serif;
+  /* font-size: 2em; */
+  display: inline;
+  position: absolute;
+  padding-top: 5%;
+
+
 }
 
 .portfolioCarousel {
   width: 100%;
   padding-top: 5%;
   text-align: center;
-
-  /* background: #F0ECEA;
-background: -webkit-linear-gradient(top, #F0ECEA, #FFFFFF);
-background: -moz-linear-gradient(top, #F0ECEA, #FFFFFF);
-background: linear-gradient(to bottom, #F0ECEA, #FFFFFF); */
+  background: #F9F5F3;
 
 }
 
 .carousel-inner {}
 
-.carousel-item {}
+.carousel-item {
+
+}
+
+
+.icons{
+  height: 3.3rem;
+}
